@@ -1,0 +1,12 @@
+vector1 <- c(9524,9525,9528,9535,9537,9538,9540,9544,9548,9570)
+vector2 <- c("Pria","Wanita","Pria","Pria","Wanita","Wanita","Wanita","Pria","Pria","Pria")
+vector3 <- c("Marketing","Marketing","Akuntansi","Akuntansi","Akuntansi","Akuntansi","Marketing","Akuntansi","Marketing","Produksi")
+vector4 <- c("Belum Menikah","Belum Menikah","Menikah","Menikah","Belum Menikah","Belum Menikah","Belum Menikah","Belum Menikah","Menikah","Menikah")
+vector5 <- c("SMU","SMU","Sarjana","Akademi","Sarjana","Akademi","SMU","Akademi","SMU","Sarjana")
+vector6 <- c(138,294,278,438,690,462,510,420,560,1182)
+vector7 <- c(24,22,22,23,25,26,26,27,30,31)
+vector8 <- c(4,4,6,5,7,6,6,5,7,9)
+
+final_data <- cbind(vector1,vector2,vector3,vector4,vector5,vector6,vector7,vector8)
+
+colnames <- c("Nomor","Gender","Bidang","Status","Didik","Gaji","Usia","Lama Kerja")
